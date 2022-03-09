@@ -173,7 +173,8 @@ form button {
 
 /* Beginning of Slide Animation  */
 .slide-animation {
-  background: #f2f2f2 url(https://i.pinimg.com/originals/87/6b/45/876b4505bfde903aa8cc2e1769b7072b.jpg) repeat 0 0;
+  background: #f2f2f2 url(https://raw.githubusercontent.com/mpachapa/my-first-website/main/pexels-ap-1415734.jpg) no-repeat 0 0;
+  background-size: auto;
   width: 100%;
   margin: 0;
   text-align: center;
