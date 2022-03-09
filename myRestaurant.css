@@ -181,11 +181,12 @@ form button {
   height: 300px;
   padding-top: 120px;
   box-sizing: border-box;
+  -webkit-transform: scale(1,.9);
   -webkit-animation: slide 20s linear infinite;
 }
 @-webkit-keyframes slide {
   from { background-position: 0 0; }
-  to { background-position: -1200px 0; }
+  to { background-position: -1000px 0; }
 }
 /* End of Slide Animation */
 /* EOF */
