@@ -81,7 +81,7 @@ li {
   font-family: 'Oswald', sans-serif;
 }
 .aboutSection li {
-  background-color: #f1e9e9;
+  background-color: #f2f2f2;
   border: 4px solid #fad21d;
   border-radius: 5%;
   box-shadow: 10px 10px 10px grey;
@@ -129,7 +129,7 @@ form button {
   margin: 20px auto;
 }
 .contactSection {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   border: 4px solid #46a7df;
   border-radius: 5%;
   box-shadow: 10px 10px 10px grey;
@@ -173,7 +173,7 @@ form button {
 
 /* Beginning of Slide Animation  */
 .slide-animation {
-  background: #f2f2f2 url(https://raw.githubusercontent.com/mpachapa/my-first-website/main/pexels-ap-1415734.jpg) no-repeat 0 0;
+  background: #f2f2f2 url(https://raw.githubusercontent.com/mpachapa/my-first-website/main/pexels-ap-1415734.jpg) repeat 0 0;
   background-size: auto;
   width: 100%;
   margin: 0;
@@ -186,7 +186,7 @@ form button {
 }
 @-webkit-keyframes slide {
   from { background-position: 0 0; }
-  to { background-position: -1000px 0; }
+  to { background-position: 1000px 0; }
 }
 /* End of Slide Animation */
 /* EOF */
