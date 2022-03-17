@@ -161,10 +161,19 @@ form button {
     margin: 40px auto;
 }
 
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
 
 /* Spinning Circle Animation */
 
-.rotate-center {
+
+/* .rotate-center {
     -webkit-animation: rotate-center 5s linear infinite both;
     animation: rotate-center 5s linear infinite both;
 }
@@ -195,6 +204,7 @@ form button {
         transform: rotate(360deg);
     }
 }
+ */
 
 
 /* End of Spinning Circle Animation */
