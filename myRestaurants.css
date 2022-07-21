@@ -71,6 +71,10 @@ h3 {
   padding: 10px;
 }
 
+h4 {
+  text-align: right;
+}
+
 .opinion {
   font-size: 36px;
 }
@@ -132,23 +136,6 @@ a:hover {
   margin: 100px 40px;
 }
 
-form {
-  padding: 20px auto;
-  margin: 20px auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-form label {
-  margin: 10px auto;
-}
-
-form button {
-  margin: 20px auto;
-}
-
 .contactSection {
   background-color: #ffffff;
   border: 4px solid #46a7df;
@@ -161,43 +148,16 @@ form button {
   margin: 40px auto;
 }
 
+iframe {
+  margin: 0 auto;
+}
+
 footer {
-  position: fixed;
   right: 0;
   bottom: 0;
   padding: 1rem;
   text-align: center;
 }
-
-/* Spinning Circle Animation */
-/* .rotate-center {
-    -webkit-animation: rotate-center 5s linear infinite both;
-    animation: rotate-center 5s linear infinite both;
-}
-.rotate-center:hover {
-    -webkit-animation: rotate-center 0.75s linear infinite both;
-    animation: rotate-center 0.75s linear infinite both;
-}
-@-webkit-keyframes rotate-center {
-    0% {
-        -webkit-transform: rotate(0);
-        transform: rotate(0);
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-@keyframes rotate-center {
-    0% {
-        -webkit-transform: rotate(0);
-        transform: rotate(0);
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}*/
 
 /* Beginning of Slide Animation  */
 
@@ -219,7 +179,7 @@ footer {
     background-position: 0 0;
   }
   to {
-    background-position: 900px 0;
+    background-position: -900px 0;
   }
 }
 
